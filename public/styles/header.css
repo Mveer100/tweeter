@@ -1,0 +1,11 @@
+header {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: chartreuse;
+  background-image:url(https://c.tenor.com/TMWh6IWlGT4AAAAC/4chan-dubs.gif);background-repeat: repeat;
+}
+#name {
+  color: deeppink;
+}

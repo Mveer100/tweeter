@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  height: 120px;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  justify-content: space-between;
+}
+.stack-top {
+  z-index: 9
+}
+i.fa-solid {
+  color: red ;
+}
+#title {
+  display: flex;
+  font-family: 'Bungee', cursive;
+
+  align-items: center;
+}
+#newTwit {
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+}
+#arrow-down {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
