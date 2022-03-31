@@ -1,11 +1,25 @@
-header {
-  height: 400px;
+header#pageheader {
+  height: 269px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: chartreuse;
-  background-image:url(https://c.tenor.com/TMWh6IWlGT4AAAAC/4chan-dubs.gif);background-repeat: repeat;
+  justify-content: center;
 }
-#name {
+
+
+#iconYourName {
+  display: flex;
+  background-color: chartreuse;
+  background-image: url("");
+  background-repeat: repeat;
+  flex-direction: column;
+  align-items: center;
+}
+
+#iconYourName img {
+
+  height: 46%;
+}
+
+h2#name {
   color: deeppink;
 }

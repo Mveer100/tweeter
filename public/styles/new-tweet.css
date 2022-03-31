@@ -1,6 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
+  font-family: c;
 }
 
 .new-tweet {
@@ -28,9 +29,9 @@ textarea {
 }
 form {
   display: flex;
- flex-direction: column;
- justify-content: center;
- width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  width: 81%;
 }
 section {
   width: 90%;

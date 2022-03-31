@@ -4,11 +4,13 @@
  * Do not modify these two selectors, please
  */
  html, body {
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  
+
 }
 /*
  * Global layout stuff
@@ -23,12 +25,20 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
- body {
-   font-family: 'Bungee', cursive, sans-serif;
- }
- main {
-   display: flex;
-   width: 100%;
-   background-color: #f4f1ec;
-   
- }
+
+ .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: auto;
+}
+
+section.tweeterPosts {
+  border: 5px solid;
+  border-color: black;
+}
+

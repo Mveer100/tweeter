@@ -1,0 +1,46 @@
+.tweeterPosts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  width: 89%;
+}
+
+.tweeterPosts header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.tweetsHeader header img {
+  width: 74px;
+}
+
+.tweetsHeader {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+article {
+  border-bottom: solid;
+}
+aside {
+  display: flex;
+  justify-content: flex-end;
+  top: -22px;
+  position: relative;
+}
+.tweetsHeader div.posterPic {
+  display: flex;
+  align-items: center;
+
+}
+.tweetsHeader div img{
+  width: 74px;
+}
+
+.tweetsHeader div {
+  width: 100%;
+}
