@@ -15,7 +15,10 @@ $(document).ready(function() {
     if (charRemaining <= 0) {
       $('.counter').css("color", "rgb(247 34 3)")
       $('.counter').html('-' +charRemaining)
+    } else if (charRemaining > 0) {
+      $('.counter').css("color", "rgb(247 34 3)")
     }
+
     $('.counter').html(charRemaining)
     //return output;
   })
