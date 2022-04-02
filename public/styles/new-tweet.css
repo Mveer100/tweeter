@@ -38,8 +38,11 @@ section {
 }
 button {
   background-color: blue;
-
 }
+button:hover {
+  background-color: black;
+}
+
 output {
   align-items: flex-end;
 }

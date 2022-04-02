@@ -46,3 +46,9 @@ aside {
 .tweetsHeader div {
   width: 100%;
 }
+
+.tweetsFooter {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

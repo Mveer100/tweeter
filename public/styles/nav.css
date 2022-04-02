@@ -11,7 +11,7 @@ nav {
 .stack-top {
   z-index: 9
 }
-i.fa-solid {
+#arrow-down {
   color: red ;
 }
 #title {
