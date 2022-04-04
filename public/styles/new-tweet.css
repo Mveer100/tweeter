@@ -4,10 +4,10 @@
   background: repeating-radial-gradient(#00fdff8f, #00000054 0.07px);
   margin-top: 120px;
   flex-direction: column;
-  align-items: center;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   width: 100%;
+  align-items: stretch;
 }
 
 
@@ -33,12 +33,12 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* width: 66% */
-  ;
+  width: 62vw;
   padding: 1em;
   background: repeating-radial-gradient(#bad11b, #e3ff0082 1px);
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 22vw;
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -104,15 +104,16 @@ div#nothingPost {
   }
 
   #iconYourName {
-    height: 7rem;
-    left: 0px;
+    height: 5rem;
+    /* left: 0px; */
     top: 120px;
-    width: 9vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    width: 134%;
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    position: absolute;
     flex-direction: column;
 }
 
@@ -122,4 +123,24 @@ div#nothingPost {
     margin: 0;
     transform: scale(0.55);
   }
+
+  #mainPage {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12vw;
+    width: 138%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60rem;
+  padding: 1em;
+  background: repeating-radial-gradient(#bad11b, #e3ff0082 1px);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0vw;
+  padding-left: 2em;
+  padding-right: 2em;
+}
 }

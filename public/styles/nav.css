@@ -10,7 +10,9 @@ nav {
   width: -webkit-fill-available;
 }
 .stack-top {
-  z-index: 9
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
 }
 #arrow-down {
   color: red ;
