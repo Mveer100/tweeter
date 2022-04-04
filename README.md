@@ -22,3 +22,5 @@ This repository is the starter code for the project: Students will fork and clon
 
 - screenshots
 
+!["screenshot of tweeter feed in action"](https://github.com/Mveer100/tweeter/blob/master/docs/Screenshot%20from%202022-04-04%2002-06-40.png)
+!["screenshot of tweeter feed in action, small mode"](https://github.com/Mveer100/tweeter/blob/master/docs/Screenshot%20from%202022-04-04%2002-56-10.png)
