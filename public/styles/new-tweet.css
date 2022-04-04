@@ -1,21 +1,27 @@
 .container {
   display: flex;
-  justify-content: center;
-  font-family: c;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: repeating-radial-gradient(#00fdff8f, #00000054 0.07px);
+  margin-top: 120px;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  width: 100%;
 }
 
-.new-tweet {
-  display: flex;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  justify-content: center;
-}
+
+
 
 textarea {
   resize: none;
   border: none;
+  padding: 1em;
+  border-bottom: 3px solid #0000007d;
   outline: none;
+  background: #f4f1ec00;
 }
+
 .tweetSubmit {
   display: flex;
   justify-content: space-between;
@@ -23,26 +29,97 @@ textarea {
   margin-bottom: 0.2em;
 }
 
-#tweet-text {
-  place-content: "what are you humming about";
-  width: 100%
-}
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 36%;
+  /* width: 66% */
+  ;
+  padding: 1em;
+  background: repeating-radial-gradient(#bad11b, #e3ff0082 1px);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2em;
+  padding-right: 2em;
 }
-section {
-  width: 90%;
-}
+
 button {
-  background-color: blue;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
 }
-button:hover {
-  background-color: black;
+
+button hover {
+  background-color: #4095c6;
+}
+
+@media all and (max-width:30em) {
+  button {
+    display: block;
+    margin: 0.2em auto;
+  }
 }
 
 output {
   align-items: flex-end;
+}
+
+div#nothingPost {
+  border: solid 4px orangered;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  margin: 0.75rem;
+  margin-bottom: 0rem;
+  background: repeating-linear-gradient(29deg, #bd7713, #bd7713, #000000, #000000 16px);
+}
+
+#nothingPost>strong {
+  color: chartreuse;
+}
+
+@media (max-width: 1040px) {
+
+  .container {
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: repeating-radial-gradient(#00fdff8f, #00000054 0.07px);
+    margin-top: 120px;
+    align-items: stretch;
+    margin-right: 3rem;
+    margin-left: 8.5rem;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  section.new-tweet {
+    width: 100%;
+  }
+
+  #iconYourName {
+    height: 7rem;
+    left: 0px;
+    top: 120px;
+    width: 9vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+  h2#name {
+    color: rgb(76, 161, 88);
+    text-shadow: 0px 0px 0 rgb(137, 156, 213), 1px 1px 0 rgb(129, 148, 205), 2px 2px 0 rgb(120, 139, 196), 3px 3px 0 rgb(111, 130, 187), 4px 4px 0 rgb(103, 122, 179), 5px 5px 0 rgb(94, 113, 170), 6px 6px 0 rgb(85, 104, 161), 7px 7px 0 rgb(76, 95, 152), 8px 8px 0 rgb(68, 87, 144), 9px 9px 0 rgb(59, 78, 135), 10px 10px 0 rgb(50, 69, 126), 11px 11px 0 rgb(42, 61, 118), 12px 12px 0 rgb(33, 52, 109), 13px 13px 0 rgb(24, 43, 100), 14px 14px 0 rgb(15, 34, 91), 15px 15px 0 rgb(7, 26, 83), 16px 16px 0 rgb(-2, 17, 74), 17px 17px 0 rgb(-11, 8, 65), 18px 18px 0 rgb(-19, 0, 57), 19px 19px 0 rgb(-28, -9, 48), 20px 20px 0 rgb(-37, -18, 39), 21px 21px 20px rgba(0, 0, 0, 1), 21px 21px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, .2);
+    margin: 0;
+    transform: scale(0.55);
+  }
 }
